@@ -3,17 +3,19 @@ workflows:
     name: Default Workflow
     max_build_duration: 60
     environment:
-      flutter: "3.24.0"
-      xcode: latest
-      cocoapods: default
+      flutter: "3.24.0"  # Ensure you're using Flutter 3.24.0
+      xcode: latest      # Optional, for macOS builds
+      cocoapods: default # Optional, for iOS (if you plan to build iOS too)
     scripts:
       - name: Install dependencies
-        script: flutter pub get
+        script: |
+          flutter pub get  # Get dependencies
       - name: Build APK
-        script: flutter build apk --release
+        script: |
+          flutter build apk --release  # Build the APK in release mode
     artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
+      - build/app/outputs/flutter-apk/app-release.apk  # Path to the APK
     publishing:
       email:
         recipients:
-          - hamid082@gmail.com
+          - hamid082@gmail.com  # Email to send build results to (optional)
