@@ -60,9 +60,11 @@ class DefaultFirebaseOptions {
     messagingSenderId: '402423441604',
     projectId: 'viserlab-global-app',
     storageBucket: 'viserlab-global-app.appspot.com',
-    androidClientId: '402423441604-9q7ijduna5mlv3cdthr14tcjos9vf1kc.apps.googleusercontent.com',
-    iosClientId: '402423441604-fics19q83chishqneflj4q0bannjri6b.apps.googleusercontent.com',
-    iosBundleId: 'dev.vlab.rapidloan',
+    androidClientId:
+        '402423441604-9q7ijduna5mlv3cdthr14tcjos9vf1kc.apps.googleusercontent.com',
+    iosClientId:
+        '402423441604-fics19q83chishqneflj4q0bannjri6b.apps.googleusercontent.com',
+    iosBundleId: 'com.erosta.loans',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
@@ -74,5 +76,4 @@ class DefaultFirebaseOptions {
     storageBucket: 'viserlab-global-app.appspot.com',
     measurementId: 'G-BLRBH5LGBH',
   );
-
 }

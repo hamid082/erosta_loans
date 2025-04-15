@@ -1,4 +1,4 @@
-package dev.vlab.rapidloan
+package com.erosta.loans
 
 import io.flutter.embedding.android.FlutterActivity
 

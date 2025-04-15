@@ -1,5 +1,5 @@
 class UrlContainer {
-  static const String domainUrl = 'https://script.viserlab.com/rapidlab/';
+  static const String domainUrl = 'https://credit.erosta.online/';
   static const String baseUrl = '${domainUrl}api/';
 
   static const String socialLoginEndPoint = 'social-login';
@@ -90,7 +90,8 @@ class UrlContainer {
   //otp
   static const String submitOtpUrl = 'check/otp/';
   static const String resendOtpUrl = 'resend/otp/';
-  static const String countryFlagImageLink = 'https://flagpedia.net/data/flags/h24/{countryCode}.webp';
+  static const String countryFlagImageLink =
+      'https://flagpedia.net/data/flags/h24/{countryCode}.webp';
 
   static const String twoFactor = "twofactor";
   static const String twoFactorEnable = "twofactor/enable";
