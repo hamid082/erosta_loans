@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "751184636872",
+    "project_id": "erosta-loans",
+    "storage_bucket": "erosta-loans.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751184636872:android:12002f8e2e462899d8aefd",
+        "android_client_info": {
+          "package_name": "com.erosta.loans"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIhnfl4mRHyhr2dq2z2jNNfQuyVeL7kc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
