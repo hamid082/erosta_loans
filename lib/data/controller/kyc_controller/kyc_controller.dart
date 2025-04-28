@@ -2,12 +2,12 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/date_converter.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/model/authorization/authorization_response_model.dart';
-import 'package:rapid_loan/data/model/kyc/kyc_response_model.dart';
-import 'package:rapid_loan/data/repo/kyc/kyc_repo.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/helper/date_converter.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/model/authorization/authorization_response_model.dart';
+import 'package:erosta_loans/data/model/kyc/kyc_response_model.dart';
+import 'package:erosta_loans/data/repo/kyc/kyc_repo.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 
 class KycController extends GetxController {
   KycRepo repo;

@@ -4,16 +4,16 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/date_converter.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/model/authorization/authorization_response_model.dart';
-import 'package:rapid_loan/data/model/dynamic_form/form.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/model/loan/loan_preview_response_model.dart';
-import 'package:rapid_loan/data/repo/loan/loan_repo.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/helper/date_converter.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/model/authorization/authorization_response_model.dart';
+import 'package:erosta_loans/data/model/dynamic_form/form.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/model/loan/loan_preview_response_model.dart';
+import 'package:erosta_loans/data/repo/loan/loan_repo.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 
 class LoanConfirmController extends GetxController {
   LoanRepo repo;

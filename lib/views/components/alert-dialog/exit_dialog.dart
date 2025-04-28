@@ -3,8 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
 
 import '../../../core/utils/dimensions.dart';
 import '../../../core/utils/my_color.dart';

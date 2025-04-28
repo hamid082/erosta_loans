@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/core/utils/util.dart';
-import 'package:rapid_loan/views/components/image/my_image_widget.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/util.dart';
+import 'package:erosta_loans/views/components/image/my_image_widget.dart';
 
 class LanguageCard extends StatelessWidget {
   final int index;

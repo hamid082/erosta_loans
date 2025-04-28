@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/auth/auth/social_login_controller.dart';
-import 'package:rapid_loan/data/repo/auth/social_login_repo.dart';
-import 'package:rapid_loan/views/components/buttons/custom_outlined_button.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/auth/auth/social_login_controller.dart';
+import 'package:erosta_loans/data/repo/auth/social_login_repo.dart';
+import 'package:erosta_loans/views/components/buttons/custom_outlined_button.dart';
 
 class SocialLoginSection extends StatefulWidget {
   const SocialLoginSection({super.key});

@@ -1,9 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first, prefer_null_aware_operators
 
-import 'package:rapid_loan/data/model/global/meassage_model.dart';
+import 'package:erosta_loans/data/model/global/meassage_model.dart';
 
-import 'package:rapid_loan/data/model/loan/running_loan_response.dart';
-import 'package:rapid_loan/data/model/user/user.dart';
+import 'package:erosta_loans/data/model/loan/running_loan_response.dart';
+import 'package:erosta_loans/data/model/user/user.dart';
 
 class DashboardResponseModel {
   DashboardResponseModel({

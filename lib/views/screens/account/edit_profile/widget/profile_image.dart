@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:rapid_loan/views/components/circle_widget/circle_image_button.dart';
+import 'package:erosta_loans/views/components/circle_widget/circle_image_button.dart';
 
 import '../../../../../../../../core/utils/my_color.dart';
 import '../../../../../../../core/utils/my_images.dart';

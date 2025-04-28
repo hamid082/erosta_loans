@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/deposit/add_new_deposit_controller.dart';
-import 'package:rapid_loan/data/model/authorized/deposit/deposit_method_response_model.dart';
-import 'package:rapid_loan/data/repo/deposit/deposit_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/components/text-field/custom_amount_text_field.dart';
-import 'package:rapid_loan/views/components/text-field/custom_drop_down_button_with_text_field2.dart';
-import 'package:rapid_loan/views/screens/deposits/new_deposit/info_widget.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/deposit/add_new_deposit_controller.dart';
+import 'package:erosta_loans/data/model/authorized/deposit/deposit_method_response_model.dart';
+import 'package:erosta_loans/data/repo/deposit/deposit_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/components/text-field/custom_amount_text_field.dart';
+import 'package:erosta_loans/views/components/text-field/custom_drop_down_button_with_text_field2.dart';
+import 'package:erosta_loans/views/screens/deposits/new_deposit/info_widget.dart';
 
 class NewDepositScreen extends StatefulWidget {
   const NewDepositScreen({Key? key}) : super(key: key);

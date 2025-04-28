@@ -4,13 +4,13 @@ import 'dart:io';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/method.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/model/authorization/authorization_response_model.dart';
-import 'package:rapid_loan/data/model/general_setting/general_settings_response_model.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/method.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/model/authorization/authorization_response_model.dart';
+import 'package:erosta_loans/data/model/general_setting/general_settings_response_model.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
 
 class ApiClient extends GetxService {
   SharedPreferences sharedPreferences;

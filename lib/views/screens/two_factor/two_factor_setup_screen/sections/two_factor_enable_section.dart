@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:rapid_loan/data/controller/auth/two_factor_controller.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
-import 'package:rapid_loan/views/components/divider/custom_divider.dart';
+import 'package:erosta_loans/data/controller/auth/two_factor_controller.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/views/components/divider/custom_divider.dart';
 
 import '../../../../../../core/utils/dimensions.dart';
 import '../../../../../../core/utils/my_color.dart';

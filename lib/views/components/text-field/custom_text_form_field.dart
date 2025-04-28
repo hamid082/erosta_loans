@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
 
 import '../../../../core/utils/my_color.dart';
 import '../../../core/utils/dimensions.dart';

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 
 class CustomBottomNav extends StatefulWidget {

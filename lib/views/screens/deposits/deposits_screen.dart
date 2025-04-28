@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/date_converter.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/deposit/deposit_history_controller.dart';
-import 'package:rapid_loan/data/repo/deposit/deposit_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/components/no_data/no_data_found_screen.dart';
-import 'package:rapid_loan/views/screens/deposits/widget/custom_deposits_card.dart';
-import 'package:rapid_loan/views/screens/deposits/widget/deposit_bottom_sheet.dart';
-import 'package:rapid_loan/views/screens/deposits/widget/deposit_history_top.dart';
+import 'package:erosta_loans/core/helper/date_converter.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/deposit/deposit_history_controller.dart';
+import 'package:erosta_loans/data/repo/deposit/deposit_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/components/no_data/no_data_found_screen.dart';
+import 'package:erosta_loans/views/screens/deposits/widget/custom_deposits_card.dart';
+import 'package:erosta_loans/views/screens/deposits/widget/deposit_bottom_sheet.dart';
+import 'package:erosta_loans/views/screens/deposits/widget/deposit_history_top.dart';
 
 class DepositsScreen extends StatefulWidget {
   const DepositsScreen({Key? key}) : super(key: key);

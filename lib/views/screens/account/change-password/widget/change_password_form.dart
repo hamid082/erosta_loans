@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/controller/account/change_password_controller.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
-import 'package:rapid_loan/views/components/text-field/custom_text_field.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/controller/account/change_password_controller.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/views/components/text-field/custom_text_field.dart';
 
 class ChangePasswordForm extends StatefulWidget {
   const ChangePasswordForm({Key? key}) : super(key: key);

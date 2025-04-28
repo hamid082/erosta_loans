@@ -1,4 +1,4 @@
-import 'package:rapid_loan/data/model/user/user.dart';
+import 'package:erosta_loans/data/model/user/user.dart';
 
 class LoginResponseModel {
   LoginResponseModel({

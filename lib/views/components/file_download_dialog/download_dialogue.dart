@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 import '../../../core/utils/my_strings.dart';
 
 class DownloadingDialog extends StatefulWidget {

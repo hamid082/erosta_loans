@@ -3,11 +3,11 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/action_button_icon_widget.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/action_button_icon_widget.dart';
 
 class CustomAppBar extends StatefulWidget implements PreferredSizeWidget {
   final String title;

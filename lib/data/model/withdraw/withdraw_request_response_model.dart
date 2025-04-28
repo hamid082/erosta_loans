@@ -6,8 +6,8 @@
 
 import 'dart:convert';
 
-import 'package:rapid_loan/data/model/dynamic_form/form.dart';
-import 'package:rapid_loan/data/model/global/meassage_model.dart';
+import 'package:erosta_loans/data/model/dynamic_form/form.dart';
+import 'package:erosta_loans/data/model/global/meassage_model.dart';
 
 WithdrawRequestResponseModel withdrawRequestResponseModelFromJson(String str) =>
     WithdrawRequestResponseModel.fromJson(json.decode(str));

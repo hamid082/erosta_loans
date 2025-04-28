@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/controller/transaction/transaction_controller.dart';
-import 'package:rapid_loan/views/components/bottom_sheet/custom_bottom_sheet.dart';
-import 'package:rapid_loan/views/components/column/bottom_sheet_column.dart';
-import 'package:rapid_loan/views/components/custom_container/bottom_sheet_container.dart';
-import 'package:rapid_loan/views/components/row_item/bottom_sheet_top_row.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/controller/transaction/transaction_controller.dart';
+import 'package:erosta_loans/views/components/bottom_sheet/custom_bottom_sheet.dart';
+import 'package:erosta_loans/views/components/column/bottom_sheet_column.dart';
+import 'package:erosta_loans/views/components/custom_container/bottom_sheet_container.dart';
+import 'package:erosta_loans/views/components/row_item/bottom_sheet_top_row.dart';
 
 class TransactionBottomSheet {
   static void transactionBottomSheet(BuildContext context, int index) {

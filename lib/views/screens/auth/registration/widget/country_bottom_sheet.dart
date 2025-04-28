@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/core/utils/util.dart';
-import 'package:rapid_loan/data/controller/account/profile_complete_controller.dart';
-import 'package:rapid_loan/data/controller/auth/auth/registration_controller.dart';
-import 'package:rapid_loan/data/model/country_model/country_model.dart';
-import 'package:rapid_loan/views/components/bottom_sheet/bottom_sheet_bar.dart';
-import 'package:rapid_loan/views/components/bottom_sheet/custom_bottom_sheet_plus.dart';
-import 'package:rapid_loan/views/components/card/bottom_sheet_card.dart';
-import 'package:rapid_loan/views/components/image/my_image_widget.dart';
-import 'package:rapid_loan/views/components/text-field/custom_text_field.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/core/utils/util.dart';
+import 'package:erosta_loans/data/controller/account/profile_complete_controller.dart';
+import 'package:erosta_loans/data/controller/auth/auth/registration_controller.dart';
+import 'package:erosta_loans/data/model/country_model/country_model.dart';
+import 'package:erosta_loans/views/components/bottom_sheet/bottom_sheet_bar.dart';
+import 'package:erosta_loans/views/components/bottom_sheet/custom_bottom_sheet_plus.dart';
+import 'package:erosta_loans/views/components/card/bottom_sheet_card.dart';
+import 'package:erosta_loans/views/components/image/my_image_widget.dart';
+import 'package:erosta_loans/views/components/text-field/custom_text_field.dart';
 
 class CountryBottomSheet {
   static void bottomSheet(BuildContext context, RegistrationController controller) {

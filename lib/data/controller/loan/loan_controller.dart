@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/route/route.dart';
+import 'package:erosta_loans/core/route/route.dart';
 
 class LoanController extends GetxController {
   bool isPlan = true;

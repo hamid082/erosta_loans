@@ -1,11 +1,11 @@
 import 'dart:developer';
 
-import 'package:rapid_loan/core/utils/method.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/repo/kyc/kyc_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
+import 'package:erosta_loans/core/utils/method.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/repo/kyc/kyc_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
 import '../../model/dynamic_form/form.dart';
 import 'package:http/http.dart' as http;
 

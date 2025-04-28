@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/views/components/divider/custom_divider.dart';
-import 'package:rapid_loan/views/components/status/status_widget.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/views/components/divider/custom_divider.dart';
+import 'package:erosta_loans/views/components/status/status_widget.dart';
 
 class CustomRow extends StatelessWidget {
   final String firstText, lastText;

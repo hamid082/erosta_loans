@@ -3,7 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../../core/utils/dimensions.dart';

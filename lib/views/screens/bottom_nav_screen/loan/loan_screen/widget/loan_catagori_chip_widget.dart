@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/loan/loan_plan_controller.dart';
-import 'package:rapid_loan/data/model/loan/loan_plan_response_model.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/loan/loan_plan_controller.dart';
+import 'package:erosta_loans/data/model/loan/loan_plan_response_model.dart';
 
 class LoanCategoryChip extends StatelessWidget {
 

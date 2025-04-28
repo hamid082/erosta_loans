@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/transaction/transaction_controller.dart';
-import 'package:rapid_loan/views/components/bottom_sheet/custom_bottom_sheet.dart';
-import 'package:rapid_loan/views/components/row_item/bottom_sheet_top_row.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/transaction/transaction_controller.dart';
+import 'package:erosta_loans/views/components/bottom_sheet/custom_bottom_sheet.dart';
+import 'package:erosta_loans/views/components/row_item/bottom_sheet_top_row.dart';
 
 showTrxBottomSheet(List<String>? list, int callFrom, String header,
     {required BuildContext context}) {

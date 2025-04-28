@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
 
 class DateConverter {
   static String estimatedTime(DateTime dateTime) {

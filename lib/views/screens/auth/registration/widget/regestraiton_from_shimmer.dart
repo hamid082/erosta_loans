@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/views/components/shimmer/custom_shimmer.dart';
+import 'package:erosta_loans/views/components/shimmer/custom_shimmer.dart';
 
 import '../../../../../../core/utils/my_color.dart';
 

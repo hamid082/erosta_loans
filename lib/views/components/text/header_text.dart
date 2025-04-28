@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/style.dart';
 
 class HeaderText extends StatelessWidget {
   final String text;

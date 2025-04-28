@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/views/components/buttons/custom_circle_animated_button.dart';
-import 'package:rapid_loan/views/components/widget-divider/widget_divider.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/views/components/buttons/custom_circle_animated_button.dart';
+import 'package:erosta_loans/views/components/widget-divider/widget_divider.dart';
 
 class BottomSheetTopRow extends StatelessWidget {
   final String header;

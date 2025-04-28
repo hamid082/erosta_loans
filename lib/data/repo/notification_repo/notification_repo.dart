@@ -1,4 +1,4 @@
-import 'package:rapid_loan/core/utils/url.dart';
+import 'package:erosta_loans/core/utils/url.dart';
 
 import '../../../core/utils/method.dart';
 import '../../../data/services/api_service.dart';

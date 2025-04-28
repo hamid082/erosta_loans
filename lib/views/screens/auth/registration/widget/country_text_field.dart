@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/style.dart';
 
 import '../../../../../../core/utils/my_color.dart';
 

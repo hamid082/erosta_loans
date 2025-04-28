@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/auth/auth/sms_verification_controler.dart';
-import 'package:rapid_loan/data/repo/auth/sms_email_verification_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/auth/auth/sms_verification_controler.dart';
+import 'package:erosta_loans/data/repo/auth/sms_email_verification_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
 
 class SmsVerificationScreen extends StatefulWidget {
   const SmsVerificationScreen({Key? key}) : super(key: key);

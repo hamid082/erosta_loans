@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/controller/localization/localization_controller.dart';
-import 'package:rapid_loan/data/controller/my_language_controller/my_language_controller.dart';
-import 'package:rapid_loan/data/repo/auth/general_setting_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/controller/localization/localization_controller.dart';
+import 'package:erosta_loans/data/controller/my_language_controller/my_language_controller.dart';
+import 'package:erosta_loans/data/repo/auth/general_setting_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
 
 import 'package:get/get.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/components/no_data/no_data_found.dart';
-import 'package:rapid_loan/views/screens/language/widget/language_card.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/components/no_data/no_data_found.dart';
+import 'package:erosta_loans/views/screens/language/widget/language_card.dart';
 
 class LanguageScreen extends StatefulWidget {
   const LanguageScreen({super.key});

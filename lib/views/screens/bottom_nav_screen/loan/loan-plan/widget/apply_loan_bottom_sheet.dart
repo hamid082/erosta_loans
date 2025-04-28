@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/controller/loan/loan_plan_controller.dart';
-import 'package:rapid_loan/views/components/bottom_sheet/custom_bottom_sheet.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
-import 'package:rapid_loan/views/components/row_item/bottom_sheet_top_row.dart';
-import 'package:rapid_loan/views/components/row_item/warning_row.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/controller/loan/loan_plan_controller.dart';
+import 'package:erosta_loans/views/components/bottom_sheet/custom_bottom_sheet.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/views/components/row_item/bottom_sheet_top_row.dart';
+import 'package:erosta_loans/views/components/row_item/warning_row.dart';
 
 import '../../../../../components/text-field/custom_amount_text_field.dart';
 

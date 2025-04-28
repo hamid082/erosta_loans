@@ -2,25 +2,25 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/util.dart';
-import 'package:rapid_loan/data/controller/withdraw/add_new_withdraw_controller.dart';
-import 'package:rapid_loan/data/model/dynamic_form/form.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/util.dart';
+import 'package:erosta_loans/data/controller/withdraw/add_new_withdraw_controller.dart';
+import 'package:erosta_loans/data/model/dynamic_form/form.dart';
 
-import 'package:rapid_loan/data/repo/account/profile_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
-import 'package:rapid_loan/views/components/checkbox/custom_check_box.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/components/custom_radio_button.dart';
-import 'package:rapid_loan/views/components/row_item/form_row.dart';
-import 'package:rapid_loan/views/components/text-field/custom_drop_down_button_with_text_field.dart';
-import 'package:rapid_loan/views/components/text-field/custom_text_field.dart';
-import 'package:rapid_loan/views/components/text/label_text_with_instructions.dart';
+import 'package:erosta_loans/data/repo/account/profile_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/views/components/checkbox/custom_check_box.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/components/custom_radio_button.dart';
+import 'package:erosta_loans/views/components/row_item/form_row.dart';
+import 'package:erosta_loans/views/components/text-field/custom_drop_down_button_with_text_field.dart';
+import 'package:erosta_loans/views/components/text-field/custom_text_field.dart';
+import 'package:erosta_loans/views/components/text/label_text_with_instructions.dart';
 import 'widget/choose_file_list_item.dart';
 
 class WithdrawConfirmScreen extends StatefulWidget {

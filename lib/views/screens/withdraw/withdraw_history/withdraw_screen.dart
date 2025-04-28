@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/date_converter.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/withdraw/withdraw_history_controller.dart';
-import 'package:rapid_loan/data/repo/withdraw/withdraw_history_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/components/no_data/no_data_found_screen.dart';
-import 'package:rapid_loan/views/components/will_pop_widget.dart';
-import 'package:rapid_loan/views/screens/withdraw/widget/custom_withdraw_card.dart';
-import 'package:rapid_loan/views/screens/withdraw/widget/withdraw_bottom_sheet.dart';
-import 'package:rapid_loan/views/screens/withdraw/widget/withdraw_history_top.dart';
+import 'package:erosta_loans/core/helper/date_converter.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/withdraw/withdraw_history_controller.dart';
+import 'package:erosta_loans/data/repo/withdraw/withdraw_history_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/components/no_data/no_data_found_screen.dart';
+import 'package:erosta_loans/views/components/will_pop_widget.dart';
+import 'package:erosta_loans/views/screens/withdraw/widget/custom_withdraw_card.dart';
+import 'package:erosta_loans/views/screens/withdraw/widget/withdraw_bottom_sheet.dart';
+import 'package:erosta_loans/views/screens/withdraw/widget/withdraw_history_top.dart';
 
 class WithdrawScreen extends StatefulWidget {
   const WithdrawScreen({Key? key}) : super(key: key);

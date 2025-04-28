@@ -2,13 +2,13 @@ import 'dart:convert';
 import 'dart:ui';
 
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/model/notification/notification_response_model.dart';
-import 'package:rapid_loan/data/repo/notification_repo/notification_repo.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/model/notification/notification_response_model.dart';
+import 'package:erosta_loans/data/repo/notification_repo/notification_repo.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 import '../../../core/utils/my_strings.dart';
 
 class NotificationsController extends GetxController {

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/core/utils/util.dart';
-import 'package:rapid_loan/data/controller/loan/my_loan_controller.dart';
-import 'package:rapid_loan/data/repo/loan/loan_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/components/no_data/no_data_found.dart';
-import 'package:rapid_loan/views/components/text/label_text.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/my-loan-list/widget/bottom_sheet.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/widget/loan_list_card.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/util.dart';
+import 'package:erosta_loans/data/controller/loan/my_loan_controller.dart';
+import 'package:erosta_loans/data/repo/loan/loan_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/components/no_data/no_data_found.dart';
+import 'package:erosta_loans/views/components/text/label_text.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/my-loan-list/widget/bottom_sheet.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/widget/loan_list_card.dart';
 
 class MyLoanScreen extends StatefulWidget {
   const MyLoanScreen({super.key});

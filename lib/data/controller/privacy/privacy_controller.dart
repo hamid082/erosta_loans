@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/model/about/privacy_response_model.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/repo/privacy_repo/privacy_repo.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/model/about/privacy_response_model.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/repo/privacy_repo/privacy_repo.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 
 class PrivacyController extends GetxController {
   int selectedIndex = 1;

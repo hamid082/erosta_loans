@@ -1,8 +1,8 @@
 
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/model/loan/loan_list_response_model.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/model/loan/loan_list_response_model.dart';
 import '../../repo/loan/loan_repo.dart';
 
 class LoanListController extends GetxController {

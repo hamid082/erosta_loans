@@ -1,4 +1,4 @@
-import 'package:rapid_loan/data/services/api_service.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
 
 class SplashRepo {
   ApiClient apiClient;

@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 
-import 'package:rapid_loan/data/model/global/common_api_response_model.dart';
+import 'package:erosta_loans/data/model/global/common_api_response_model.dart';
 
 class WithdrawConfirmResponseModel {
   WithdrawConfirmResponseModel({

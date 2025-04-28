@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/data/controller/loan/loan_plan_controller.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/loan-plan/widget/apply_allloan_bottom_sheet.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/data/controller/loan/loan_plan_controller.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/loan-plan/widget/apply_allloan_bottom_sheet.dart';
 
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/widget/loan_card.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/widget/loan_card.dart';
 
 class AllLoanPlanList extends StatefulWidget {
   const AllLoanPlanList({Key? key}) : super(key: key);

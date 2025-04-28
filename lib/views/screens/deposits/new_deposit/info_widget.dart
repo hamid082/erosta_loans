@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/controller/deposit/add_new_deposit_controller.dart';
-import 'package:rapid_loan/views/components/row_item/custom_row.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/controller/deposit/add_new_deposit_controller.dart';
+import 'package:erosta_loans/views/components/row_item/custom_row.dart';
 
 class InfoWidget extends StatelessWidget {
   const InfoWidget({Key? key}) : super(key: key);

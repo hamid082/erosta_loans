@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/controller/account/profile_complete_controller.dart';
-import 'package:rapid_loan/data/repo/account/profile_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
-import 'package:rapid_loan/views/components/image/my_image_widget.dart';
-import 'package:rapid_loan/views/components/text-field/custom_text_field.dart';
-import 'package:rapid_loan/views/components/will_pop_widget.dart';
-import 'package:rapid_loan/views/screens/auth/profile_complete/widget/image_widget.dart';
-import 'package:rapid_loan/views/screens/auth/registration/widget/country_bottom_sheet.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/controller/account/profile_complete_controller.dart';
+import 'package:erosta_loans/data/repo/account/profile_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/views/components/image/my_image_widget.dart';
+import 'package:erosta_loans/views/components/text-field/custom_text_field.dart';
+import 'package:erosta_loans/views/components/will_pop_widget.dart';
+import 'package:erosta_loans/views/screens/auth/profile_complete/widget/image_widget.dart';
+import 'package:erosta_loans/views/screens/auth/registration/widget/country_bottom_sheet.dart';
 
 class ProfileCompleteScreen extends StatefulWidget {
   const ProfileCompleteScreen({Key? key}) : super(key: key);

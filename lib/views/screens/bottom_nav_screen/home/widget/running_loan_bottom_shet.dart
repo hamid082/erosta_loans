@@ -1,19 +1,19 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/date_converter.dart';
-import 'package:rapid_loan/core/helper/string_format_helper.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/controller/home/home_controller.dart';
+import 'package:erosta_loans/core/helper/date_converter.dart';
+import 'package:erosta_loans/core/helper/string_format_helper.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/controller/home/home_controller.dart';
 
-import 'package:rapid_loan/views/components/bottom_sheet/custom_bottom_sheet.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/column/bottom_sheet_column.dart';
-import 'package:rapid_loan/views/components/row_item/bottom_sheet_top_row.dart';
-import 'package:rapid_loan/views/components/widget-divider/widget_divider.dart';
+import 'package:erosta_loans/views/components/bottom_sheet/custom_bottom_sheet.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/column/bottom_sheet_column.dart';
+import 'package:erosta_loans/views/components/row_item/bottom_sheet_top_row.dart';
+import 'package:erosta_loans/views/components/widget-divider/widget_divider.dart';
 
 class RunningLoanBottomSheet {
   void bottomSheet(BuildContext context, int index) {

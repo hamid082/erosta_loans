@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class CustomLoader extends StatelessWidget {

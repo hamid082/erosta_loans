@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/divider/custom_divider.dart';
-import 'package:rapid_loan/views/components/row_item/bottom_sheet_top_row.dart';
-import 'package:rapid_loan/views/components/text/default_text.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/divider/custom_divider.dart';
+import 'package:erosta_loans/views/components/row_item/bottom_sheet_top_row.dart';
+import 'package:erosta_loans/views/components/text/default_text.dart';
 
 class WarningAlertDialog extends StatelessWidget {
   final VoidCallback onPressed;

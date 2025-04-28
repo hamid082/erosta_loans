@@ -1,15 +1,15 @@
 import 'dart:convert';
 
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
 import 'package:http/http.dart' as http;
-import 'package:rapid_loan/core/utils/method.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/model/auth/verification/email_verification_model.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/utils/method.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/model/auth/verification/email_verification_model.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 
 class LoginRepo {
   ApiClient apiClient;

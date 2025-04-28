@@ -2,17 +2,17 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/core/utils/messages.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/controller/localization/localization_controller.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/model/language/language_model.dart';
-import 'package:rapid_loan/data/model/language/main_language_response_model.dart';
-import 'package:rapid_loan/data/repo/auth/general_setting_repo.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/utils/messages.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/controller/localization/localization_controller.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/model/language/language_model.dart';
+import 'package:erosta_loans/data/model/language/main_language_response_model.dart';
+import 'package:erosta_loans/data/repo/auth/general_setting_repo.dart';
 
 import 'package:get/get.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MyLanguageController extends GetxController {

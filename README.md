@@ -1,4 +1,4 @@
-# rapid_loan
+# erosta_loans
 
 A new Flutter project.
 

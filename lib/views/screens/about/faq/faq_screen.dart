@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/data/controller/common/theme_controller.dart';
-import 'package:rapid_loan/data/controller/faq_controller/faq_controller.dart';
-import 'package:rapid_loan/data/repo/faq_repo/faq_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/screens/about/faq/faq_widget.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/data/controller/common/theme_controller.dart';
+import 'package:erosta_loans/data/controller/faq_controller/faq_controller.dart';
+import 'package:erosta_loans/data/repo/faq_repo/faq_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/screens/about/faq/faq_widget.dart';
 
 class FaqScreen extends StatefulWidget {
   const FaqScreen({Key? key}) : super(key: key);

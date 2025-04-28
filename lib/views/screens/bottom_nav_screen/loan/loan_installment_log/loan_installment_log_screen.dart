@@ -2,17 +2,17 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/date_converter.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/data/controller/loan/loan_installment_log_controller.dart';
-import 'package:rapid_loan/data/repo/loan/loan_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/components/no_data/no_data_found.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/loan_installment_log/widget/installment_log_list_item.dart';
+import 'package:erosta_loans/core/helper/date_converter.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/data/controller/loan/loan_installment_log_controller.dart';
+import 'package:erosta_loans/data/repo/loan/loan_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/components/no_data/no_data_found.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/loan_installment_log/widget/installment_log_list_item.dart';
 
 import 'widget/loan_installment_bottom_sheet.dart';
 

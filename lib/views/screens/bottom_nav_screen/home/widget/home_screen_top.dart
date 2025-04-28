@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/data/controller/home/home_controller.dart';
-import 'package:rapid_loan/views/components/circle_widget/circle_image_button.dart';
-import 'package:rapid_loan/views/components/image/custom_svg_picture.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/home/widget/balance_animated_app_bar.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/data/controller/home/home_controller.dart';
+import 'package:erosta_loans/views/components/circle_widget/circle_image_button.dart';
+import 'package:erosta_loans/views/components/image/custom_svg_picture.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/home/widget/balance_animated_app_bar.dart';
 
 class HomeScreenTop extends StatefulWidget {
   const HomeScreenTop({Key? key}) : super(key: key);

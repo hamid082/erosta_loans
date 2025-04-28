@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/util.dart';
-import 'package:rapid_loan/views/components/column/card_column.dart';
-import 'package:rapid_loan/views/components/status/status_widget.dart';
-import 'package:rapid_loan/views/components/widget-divider/widget_divider.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/util.dart';
+import 'package:erosta_loans/views/components/column/card_column.dart';
+import 'package:erosta_loans/views/components/status/status_widget.dart';
+import 'package:erosta_loans/views/components/widget-divider/widget_divider.dart';
 
 class CustomDepositsCard extends StatelessWidget {
   final String trxValue, date, status, amount;

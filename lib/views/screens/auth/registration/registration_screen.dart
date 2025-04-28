@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/data/controller/auth/auth/registration_controller.dart';
-import 'package:rapid_loan/data/repo/auth/general_setting_repo.dart';
-import 'package:rapid_loan/data/repo/auth/signup_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/appbar/custom_support_appbar.dart';
-import 'package:rapid_loan/views/components/no_data/custom_nodata_noInternet.dart';
-import 'package:rapid_loan/views/components/will_pop_widget.dart';
-import 'package:rapid_loan/views/screens/auth/registration/widget/registration_form.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/data/controller/auth/auth/registration_controller.dart';
+import 'package:erosta_loans/data/repo/auth/general_setting_repo.dart';
+import 'package:erosta_loans/data/repo/auth/signup_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/appbar/custom_support_appbar.dart';
+import 'package:erosta_loans/views/components/no_data/custom_nodata_noInternet.dart';
+import 'package:erosta_loans/views/components/will_pop_widget.dart';
+import 'package:erosta_loans/views/screens/auth/registration/widget/registration_form.dart';
 
 import '../../../../core/utils/my_strings.dart';
 

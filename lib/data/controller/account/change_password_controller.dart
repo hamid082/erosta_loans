@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/data/repo/account/change_password_repo.dart';
+import 'package:erosta_loans/data/repo/account/change_password_repo.dart';
 
 class ChangePasswordController extends GetxController {
   ChangePasswordRepo changePasswordRepo;

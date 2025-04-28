@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/data/controller/home/home_controller.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/data/controller/home/home_controller.dart';
 
 import '../../../../../core/route/route.dart';
 import '../../../../../core/utils/my_color.dart';

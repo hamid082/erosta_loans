@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/util.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/util.dart';
 import 'tab_widget.dart';
 
 class TabContainer extends StatelessWidget {

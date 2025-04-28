@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_icons.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_icons.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
 
-import 'package:rapid_loan/data/controller/home/home_controller.dart';
-import 'package:rapid_loan/views/components/card/card_bg.dart';
-import 'package:rapid_loan/views/components/result/latest_result_list_item.dart';
+import 'package:erosta_loans/data/controller/home/home_controller.dart';
+import 'package:erosta_loans/views/components/card/card_bg.dart';
+import 'package:erosta_loans/views/components/result/latest_result_list_item.dart';
 
 import '../../../../../core/utils/style.dart';
 

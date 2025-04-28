@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/widget/plan_row_item.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/widget/plan_row_item.dart';
 
 class LoanCardMiddle extends StatelessWidget {
   final String minimum;

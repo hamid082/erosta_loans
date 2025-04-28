@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/theme/theme_util.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/data/controller/localization/localization_controller.dart';
-import 'package:rapid_loan/data/controller/splash/splash_controller.dart';
-import 'package:rapid_loan/data/repo/auth/general_setting_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
+import 'package:erosta_loans/core/theme/theme_util.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/data/controller/localization/localization_controller.dart';
+import 'package:erosta_loans/data/controller/splash/splash_controller.dart';
+import 'package:erosta_loans/data/repo/auth/general_setting_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

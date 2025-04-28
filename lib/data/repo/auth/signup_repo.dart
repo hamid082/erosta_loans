@@ -1,10 +1,10 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/core/utils/method.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/model/auth/sign_up_model/sign_up_model.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/utils/method.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/model/auth/sign_up_model/sign_up_model.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
 
 class RegistrationRepo {
   ApiClient apiClient;

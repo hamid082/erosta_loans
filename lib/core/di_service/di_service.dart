@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:rapid_loan/data/controller/common/theme_controller.dart';
-import 'package:rapid_loan/data/controller/localization/localization_controller.dart';
-import 'package:rapid_loan/data/controller/splash/splash_controller.dart';
-import 'package:rapid_loan/data/repo/auth/general_setting_repo.dart';
-import 'package:rapid_loan/data/repo/splash/splash_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
+import 'package:erosta_loans/data/controller/common/theme_controller.dart';
+import 'package:erosta_loans/data/controller/localization/localization_controller.dart';
+import 'package:erosta_loans/data/controller/splash/splash_controller.dart';
+import 'package:erosta_loans/data/repo/auth/general_setting_repo.dart';
+import 'package:erosta_loans/data/repo/splash/splash_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
 
 Future<Map<String, Map<String, String>>> init() async {
   final sharedPreferences = await SharedPreferences.getInstance();

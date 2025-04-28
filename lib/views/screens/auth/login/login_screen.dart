@@ -1,26 +1,26 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
 
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/core/utils/util.dart';
-import 'package:rapid_loan/data/controller/auth/auth/social_login_controller.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/util.dart';
+import 'package:erosta_loans/data/controller/auth/auth/social_login_controller.dart';
 
-import 'package:rapid_loan/data/controller/auth/login_controller.dart';
-import 'package:rapid_loan/data/repo/auth/login_repo.dart';
-import 'package:rapid_loan/data/repo/auth/social_login_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_button.dart';
-import 'package:rapid_loan/views/components/buttons/rounded_loading_button.dart';
+import 'package:erosta_loans/data/controller/auth/login_controller.dart';
+import 'package:erosta_loans/data/repo/auth/login_repo.dart';
+import 'package:erosta_loans/data/repo/auth/social_login_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_button.dart';
+import 'package:erosta_loans/views/components/buttons/rounded_loading_button.dart';
 
-import 'package:rapid_loan/views/components/text-field/custom_text_form_field.dart';
-import 'package:rapid_loan/views/components/will_pop_widget.dart';
-import 'package:rapid_loan/views/screens/auth/login/widget/social_login_section.dart';
+import 'package:erosta_loans/views/components/text-field/custom_text_form_field.dart';
+import 'package:erosta_loans/views/components/will_pop_widget.dart';
+import 'package:erosta_loans/views/screens/auth/login/widget/social_login_section.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

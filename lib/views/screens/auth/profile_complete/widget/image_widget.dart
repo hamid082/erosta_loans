@@ -2,8 +2,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/data/controller/account/profile_complete_controller.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/data/controller/account/profile_complete_controller.dart';
 
 import '../../../../../core/utils/my_images.dart';
 

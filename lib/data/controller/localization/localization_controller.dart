@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/data/model/language/language_model.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/data/model/language/language_model.dart';
 import '../../../core/utils/my_strings.dart';
 
 class LocalizationController extends GetxController {

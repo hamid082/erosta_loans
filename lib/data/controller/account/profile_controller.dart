@@ -3,14 +3,14 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/model/profile/profile_response_model.dart';
-import 'package:rapid_loan/data/model/user/user.dart';
-import 'package:rapid_loan/data/model/user_post_model/user_post_model.dart';
-import 'package:rapid_loan/data/repo/account/profile_repo.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/model/profile/profile_response_model.dart';
+import 'package:erosta_loans/data/model/user/user.dart';
+import 'package:erosta_loans/data/model/user_post_model/user_post_model.dart';
+import 'package:erosta_loans/data/repo/account/profile_repo.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 
 class ProfileController extends GetxController {
   ProfileRepo profileRepo;

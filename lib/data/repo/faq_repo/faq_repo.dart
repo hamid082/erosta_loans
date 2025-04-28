@@ -1,5 +1,5 @@
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
 
 import '../../../core/utils/method.dart';
 

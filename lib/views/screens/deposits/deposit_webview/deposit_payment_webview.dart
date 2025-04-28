@@ -2,8 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
 import 'webview_widget.dart';
 
 class WebViewExample extends StatefulWidget {

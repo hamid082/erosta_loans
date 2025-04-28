@@ -1,8 +1,8 @@
-import 'package:rapid_loan/data/model/language/language_model.dart';
+import 'package:erosta_loans/data/model/language/language_model.dart';
 
 class MyStrings {
   static RegExp emailValidatorRegExp = RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
-  static const String appName = "rapid_loan";
+  static const String appName = "erosta_loans";
   static const String fileDownloadAt = "File download at";
   static const String errorDownloadingFile = "Error downloading file";
   static const String downloading = "Downloading";

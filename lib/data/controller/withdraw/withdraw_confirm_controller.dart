@@ -2,19 +2,19 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/data/model/authorization/authorization_response_model.dart';
-import 'package:rapid_loan/data/model/dynamic_form/form.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/model/profile/profile_response_model.dart';
-import 'package:rapid_loan/data/model/withdraw/withdraw_method_response_model.dart';
-import 'package:rapid_loan/data/model/withdraw/withdraw_preview_response_model.dart'
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/data/model/authorization/authorization_response_model.dart';
+import 'package:erosta_loans/data/model/dynamic_form/form.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/model/profile/profile_response_model.dart';
+import 'package:erosta_loans/data/model/withdraw/withdraw_method_response_model.dart';
+import 'package:erosta_loans/data/model/withdraw/withdraw_preview_response_model.dart'
     as prev;
 
-import 'package:rapid_loan/data/repo/account/profile_repo.dart';
-import 'package:rapid_loan/data/repo/withdraw/withdraw_repo.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/data/repo/account/profile_repo.dart';
+import 'package:erosta_loans/data/repo/withdraw/withdraw_repo.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 import 'package:file_picker/file_picker.dart';
 
 class WithdrawConfirmController extends GetxController {

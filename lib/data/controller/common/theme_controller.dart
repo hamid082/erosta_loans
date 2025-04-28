@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/theme/light.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/theme/light.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/theme/dark.dart';

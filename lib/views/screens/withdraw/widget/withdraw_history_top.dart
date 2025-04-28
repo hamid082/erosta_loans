@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/style.dart';
-import 'package:rapid_loan/core/utils/util.dart';
-import 'package:rapid_loan/data/controller/withdraw/withdraw_history_controller.dart';
-import 'package:rapid_loan/views/components/text-field/search_text_field.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/style.dart';
+import 'package:erosta_loans/core/utils/util.dart';
+import 'package:erosta_loans/data/controller/withdraw/withdraw_history_controller.dart';
+import 'package:erosta_loans/views/components/text-field/search_text_field.dart';
 
 class WithdrawHistoryTop extends StatefulWidget {
   const WithdrawHistoryTop({Key? key}) : super(key: key);

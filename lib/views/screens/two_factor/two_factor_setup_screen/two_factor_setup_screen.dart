@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:rapid_loan/views/components/appbar/custom_appbar.dart';
-import 'package:rapid_loan/views/components/custom_loader.dart';
-import 'package:rapid_loan/views/screens/two_factor/two_factor_setup_screen/sections/two_factor_disable_section.dart';
-import 'package:rapid_loan/views/screens/two_factor/two_factor_setup_screen/sections/two_factor_enable_section.dart';
+import 'package:erosta_loans/views/components/appbar/custom_appbar.dart';
+import 'package:erosta_loans/views/components/custom_loader.dart';
+import 'package:erosta_loans/views/screens/two_factor/two_factor_setup_screen/sections/two_factor_disable_section.dart';
+import 'package:erosta_loans/views/screens/two_factor/two_factor_setup_screen/sections/two_factor_enable_section.dart';
 
 import '../../../../../core/utils/my_color.dart';
 import '../../../../../core/utils/my_strings.dart';

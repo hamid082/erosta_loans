@@ -1,5 +1,5 @@
-import 'package:rapid_loan/data/model/global/meassage_model.dart';
-import 'package:rapid_loan/data/model/user/user.dart';
+import 'package:erosta_loans/data/model/global/meassage_model.dart';
+import 'package:erosta_loans/data/model/user/user.dart';
 
 class ProfileResponseModel {
   ProfileResponseModel({

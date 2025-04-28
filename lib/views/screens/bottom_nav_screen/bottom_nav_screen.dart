@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/core/utils/my_color.dart';
-import 'package:rapid_loan/core/utils/my_images.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/views/components/bottom-nav-screen/navbar_items.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/home/home_screen.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/loan_screen/loan_screen.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/loan/my_loan_screen/my_loan_screen.dart';
-import 'package:rapid_loan/views/screens/bottom_nav_screen/menu/menu_screen.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/core/utils/my_color.dart';
+import 'package:erosta_loans/core/utils/my_images.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/views/components/bottom-nav-screen/navbar_items.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/home/home_screen.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/loan_screen/loan_screen.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/loan/my_loan_screen/my_loan_screen.dart';
+import 'package:erosta_loans/views/screens/bottom_nav_screen/menu/menu_screen.dart';
 
 class BottomNavBarScreen extends StatefulWidget {
   const BottomNavBarScreen({super.key});

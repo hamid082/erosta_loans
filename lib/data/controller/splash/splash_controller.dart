@@ -1,14 +1,14 @@
 import 'dart:convert';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/core/utils/messages.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/data/controller/localization/localization_controller.dart';
-import 'package:rapid_loan/data/model/general_setting/general_settings_response_model.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/repo/auth/general_setting_repo.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/utils/messages.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/data/controller/localization/localization_controller.dart';
+import 'package:erosta_loans/data/model/general_setting/general_settings_response_model.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/repo/auth/general_setting_repo.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 
 class SplashController extends GetxController {
   GeneralSettingRepo repo;

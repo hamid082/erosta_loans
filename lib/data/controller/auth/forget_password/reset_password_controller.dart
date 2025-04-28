@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/helper/shared_preference_helper.dart';
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/route/route.dart';
-import 'package:rapid_loan/data/model/auth/error_model.dart';
-import 'package:rapid_loan/data/model/auth/verification/email_verification_model.dart';
-import 'package:rapid_loan/data/repo/auth/login_repo.dart';
+import 'package:erosta_loans/core/helper/shared_preference_helper.dart';
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/route/route.dart';
+import 'package:erosta_loans/data/model/auth/error_model.dart';
+import 'package:erosta_loans/data/model/auth/verification/email_verification_model.dart';
+import 'package:erosta_loans/data/repo/auth/login_repo.dart';
 
 class ResetPasswordController extends GetxController {
   LoginRepo loginRepo;

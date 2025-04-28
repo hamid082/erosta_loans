@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/views/components/alert-dialog/exit_dialog.dart';
+import 'package:erosta_loans/views/components/alert-dialog/exit_dialog.dart';
 
 class WillPopWidget extends StatelessWidget {
   final Widget child;

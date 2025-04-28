@@ -1,17 +1,17 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart' as http;
-import 'package:rapid_loan/core/utils/method.dart' as request;
-import 'package:rapid_loan/core/utils/my_strings.dart';
-import 'package:rapid_loan/core/utils/url.dart';
-import 'package:rapid_loan/data/model/authorization/authorization_response_model.dart';
-import 'package:rapid_loan/data/model/dynamic_form/form.dart';
-import 'package:rapid_loan/data/model/global/response_model/response_model.dart';
-import 'package:rapid_loan/data/model/withdraw/withdraw_history_response_model.dart';
-// import 'package:rapid_loan/data/model/withdraw/withdraw_preview_response_model.dart';
-import 'package:rapid_loan/data/repo/kyc/kyc_repo.dart';
-import 'package:rapid_loan/data/services/api_service.dart';
-import 'package:rapid_loan/views/components/snackbar/show_custom_snackbar.dart';
+import 'package:erosta_loans/core/utils/method.dart' as request;
+import 'package:erosta_loans/core/utils/my_strings.dart';
+import 'package:erosta_loans/core/utils/url.dart';
+import 'package:erosta_loans/data/model/authorization/authorization_response_model.dart';
+import 'package:erosta_loans/data/model/dynamic_form/form.dart';
+import 'package:erosta_loans/data/model/global/response_model/response_model.dart';
+import 'package:erosta_loans/data/model/withdraw/withdraw_history_response_model.dart';
+// import 'package:erosta_loans/data/model/withdraw/withdraw_preview_response_model.dart';
+import 'package:erosta_loans/data/repo/kyc/kyc_repo.dart';
+import 'package:erosta_loans/data/services/api_service.dart';
+import 'package:erosta_loans/views/components/snackbar/show_custom_snackbar.dart';
 
 class WithdrawRepo {
   ApiClient apiClient;

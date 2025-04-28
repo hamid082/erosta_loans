@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rapid_loan/core/utils/dimensions.dart';
-import 'package:rapid_loan/data/model/auth/error_model.dart';
+import 'package:erosta_loans/core/utils/dimensions.dart';
+import 'package:erosta_loans/data/model/auth/error_model.dart';
 import 'validation_chip_widget.dart';
 
 class ValidationWidget extends StatelessWidget {
